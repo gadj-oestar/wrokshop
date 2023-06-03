@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #1f242d;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.logo img {
+    margin-top: -10px;
+    color: #0ef;
+    float: left;
+    width: 25%;
+    margin-left: -30px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 10Px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.unique {
+    color: #0ef;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.intro {
+    width: 100%;
+    margin-left: 60px;
+}
+
+figure img {
+    width: 40%;
+    border-radius: 300%;
+    float: right;
+    align-self: center;
+    margin-right: 80px;
+    margin-top: -120px;
+
+}
+
+.title {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.title1 {
+    font-size: 2.5rem;
+    padding: 3px;
+}
+
+.title2 {
+    font-size: 1rem;
+}
+
+.intro2 {
+    font-size: 0.9rem;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+span {
+    color: #0ef;
+}
+
+.cv {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    animation-name: remplissage;
+    background: transparent;
+    border: 1px solid white;
+    width: 30%;
+}
+
+
+
+.cv:hover {
+    background-color: #0ef;
+}
+
+
+
+.cv a {
+    color: rgb(255, 255, 255);
+
+}
+
+.reseau {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 30Px;
+}
+
+.reseau i {
+    font-size: 2.8rem;
+    color: #0ef;
+    margin: 10px;
+
+}
+
+
+.aboutme {
+    background-color: rgb(36, 69, 71);
+    height: 70vh;
+}
+
+.aboutme p {
+    text-align: center;
+}
+
+.aboutme h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.me img {
+    position: relative;
+    z-index: 100;
+    width: 17%;
+    margin-left: 520px;
+    border: 3px solid rgb(10, 255, 235);
+    float: none;
+    margin-top: 0;
+}
+
+
+.aboutme p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+.bloc3 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.formation {
+
+    width: 70%;
+}
+
+.formation section {
+    border: 2px solid white;
+    margin: 20px;
+}
+
+
+.experience {
+
+    width: 70%;
+    margin-top: 20px;
+}
+
+.experience section {
+    border: 2Px solid white;
+    margin: 10px;
+}
+
+.experience section ul li {
+    list-style-type: circle;
+}
+
+.title4 {
+
+    margin-top: 30px;
+    border-bottom: 3px solid white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projet {
+    text-align: center;
+    background-color: rgb(52, 84, 86);
+}
+
+.skill {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skil1 {
+    border: 3px solid rgb(40, 237, 255);
+    width: 50%;
+    margin: 10px;
+}
+
+.skil1 section {
+    margin: 10px;
+}
+
+.skil2 {
+    border: 3Px solid rgb(40, 237, 255);
+    width: 50%;
+    margin: 10px;
+}
+
+.skil2 section {
+    margin: 10px;
+}
+
+.recipiant {
+    border: 3px solid rgb(242, 242, 242);
+    width: 99%;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.jauge {
+
+    border-radius: 30px;
+    animation: jauge 8s forwards;
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    width: 90%;
+
+
+}
+
+@keyframes jauge {
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+        width: 90%;
+
+
+
+    }
+}
+
+@keyframes jauge1 {
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+        width: 75%;
+
+
+
+    }
+}
+
+@keyframes jauge2 {
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+        width: 70%;
+
+
+
+    }
+}
+
+@keyframes jauge3 {
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+        width: 55%;
+
+
+
+    }
+}
+
+@keyframes jauge4 {
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+        width: 71%;
+
+
+
+    }
+}
+
+@keyframes jauge5 {
+    from {
+
+        width: 0%;
+
+    }
+
+    to {
+        width: 44%;
+
+
+
+    }
+}
+
+.jauge1 {
+    background-color: #0ef;
+    width: 75%;
+    border: 2Px solid #0ef;
+    border-radius: 30px;
+    animation: jauge1 8s;
+
+
+}
+
+.jauge2 {
+    background-color: #0ef;
+    width: 70%;
+    border: 2Px solid #0ef;
+    border-radius: 30px;
+    animation: jauge2 8s;
+
+
+}
+
+.jauge3 {
+    background-color: #0ef;
+    width: 55%;
+    border: 2Px solid #0ef;
+    border-radius: 30px;
+    animation: jauge3 8s;
+
+
+}
+
+.jauge4 {
+    background-color: #0ef;
+    width: 71%;
+    border: 2Px solid #0ef;
+    border-radius: 30px;
+    animation: jauge4 8s;
+
+
+
+}
+
+.jauge5 {
+    background-color: #0ef;
+    width: 40%;
+    border: 2Px solid #0ef;
+    border-radius: 30px;
+    animation: jauge5 8s;
+
+
+}
+
+.competence h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skill span {
+    display: block;
+    text-align: end;
+}
+
+.skill h4 {
+    position: relative;
+    top: 20px;
+
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact {
+    height: 30vh;
+}
+
+.email {
+    display: flex;
+    padding: 10px;
+
+
+}
+
+.email i {
+    font-size: 2rem;
+}
+
+.email p {
+    align-self: center;
+}
