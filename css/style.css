@@ -64,7 +64,7 @@ nav ul li {
     margin-left: 60px;
 }
 
-figure img {
+.figure img {
     width: 40%;
     border-radius: 300%;
     float: right;
@@ -154,10 +154,11 @@ span {
     position: relative;
     z-index: 100;
     width: 17%;
-    margin-left: 520px;
     border: 3px solid rgb(10, 255, 235);
     float: none;
     margin-top: 0;
+    margin-left: 42%;
+    border-radius: 300%;
 }
 
 
@@ -172,7 +173,12 @@ span {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
+    margin-left: 20%;
+}
 
+.bloc3 h2 {
+    text-align: start;
+    margin-left: 27px;
 }
 
 .formation {
@@ -213,6 +219,19 @@ span {
 .projet {
     text-align: center;
     background-color: rgb(52, 84, 86);
+}
+
+.projet h1 {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.projet p {
+    margin-top: 20px;
+}
+
+.projet h3 {
+    margin-top: 30px;
 }
 
 .skill {
@@ -425,6 +444,7 @@ span {
 
 .contact {
     height: 30vh;
+    margin-left: 40px;
 }
 
 .email {
@@ -440,4 +460,29 @@ span {
 
 .email p {
     align-self: center;
+}
+
+.flex {
+    display: flex;
+    padding: 30px;
+    margin-left: 200px;
+}
+
+.maquet img {
+    width: 100%;
+    width: 20vh;
+    margin-top: 10px;
+}
+
+.kwick img {
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.voir1 {
+    background-color: #0ef;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 10px;
 }
